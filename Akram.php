@@ -9,7 +9,7 @@ $HomeAddress=readline("Input your home address:\n");
 $Date_of_birth=readline ("input your date of birth: ");
 $CurrentYR=(int)readline("Input current year: ");
 $BirthYR=(int)readline("Input birth year: ");
-$Age = $CurrentYR-BirthYR;
+$Age = $CurrentYR-$BirthYR;
 echo("{$MyName}, We are so glad to have you back 
 and as of today, you are {$Age} years of age.\n");
 
